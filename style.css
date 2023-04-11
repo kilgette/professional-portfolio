@@ -1,9 +1,15 @@
 *{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
   background-color: 4F67272;
   color: #f7ece1
 }
 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
 nav {
   background-color: #333;
