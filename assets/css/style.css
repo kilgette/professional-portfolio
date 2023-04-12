@@ -1,32 +1,42 @@
 *{
+  margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #6c756d;
-  color: #eeebe9
 }
 
-header {
+header{
   display: flex;
+  background-color: #255d45;
+  text-size-adjust: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav {
-  background-color: #25272d;
-  color: #cdd8cc
+  height: 60px;
+  width: 100%;
+  display: inline-block;
+  align-items: normal;
   }
 
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 20%
+}
+
 nav ul{
-  list-style-type: style none;
-  display: flex;
-  justify-content: space-between;
+ margin: 0;
+ padding: 1rem;
+ list-style: none;
+ display: flex;
+ justify-content: space-evenly;
 }
 
-nav li {
-padding: 10 px; 
+nav ul li{
+margin-right: 1rem;
+margin-left: 1rem;
 }
 
-nav a {
-  color: #6b6666
-  text-decoration; none:
-}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+
+
+
+
