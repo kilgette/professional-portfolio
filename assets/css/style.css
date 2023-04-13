@@ -44,7 +44,7 @@ nav ul li a{
 .main {
   display: flex;
   flex-direction: column;
-  background: red;
+  /* background: red; */
   justify-content: center;
   align-items: center;
 }
